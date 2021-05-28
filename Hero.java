@@ -1,3 +1,3 @@
-public class Hero {
+public class Hero extends Player implements Fight {
     
 }
