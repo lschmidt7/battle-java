@@ -22,11 +22,11 @@ public class Main {
         }
         if(hero.getEnergy()<=0)
         {
-            System.out.println("Inimigo Venceu");
+            System.out.println("Enemy Win");
         }
         else
         {
-            System.out.println("Heroi Venceu");
+            System.out.println("Hero Win");
         }
     }
 
