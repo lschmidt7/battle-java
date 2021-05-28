@@ -2,7 +2,7 @@ public class Main {
     
     public static void main(String[] args) {
         Hero hero = new Hero(20, 100);
-        Enemy enemy = new Enemy(15, 100);
+        Enemy enemy = new Enemy(20, 100);
 
         int turn = 0;
 
@@ -18,6 +18,7 @@ public class Main {
                 float damage = enemy.attack();
                 hero.defend(damage);
             }
+            turn++;
         }
         if(hero.getEnergy()<=0)
         {
@@ -25,7 +26,7 @@ public class Main {
         }
         else
         {
-            System.out.println("Herói Venceu");
+            System.out.println("Heroi Venceu");
         }
     }
 
